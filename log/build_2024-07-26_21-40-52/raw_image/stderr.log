@@ -1,5 +1,0 @@
-/usr/bin/ld: 找不到 -lsensor_msgs: 没有那个文件或目录
-collect2: error: ld returned 1 exit status
-gmake[2]: *** [CMakeFiles/raw_image_node.dir/build.make:248：raw_image_node] 错误 1
-gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/raw_image_node.dir/all] 错误 2
-gmake: *** [Makefile:146：all] 错误 2

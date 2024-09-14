@@ -1,2 +1,0 @@
-Invoking command in '/home/zhu/rm2024/RC_October/build/raw_image': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhu/rm2024/RC_October/build/raw_image -- -j32 -l32
-Invoked command in '/home/zhu/rm2024/RC_October/build/raw_image' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/zhu/rm2024/RC_October/build/raw_image -- -j32 -l32
