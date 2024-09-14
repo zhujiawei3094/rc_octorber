@@ -1,0 +1,6 @@
+source;share/qr_identify/hook/pythonpath.ps1
+source;share/qr_identify/hook/pythonpath.dsv
+source;share/qr_identify/hook/pythonpath.sh
+source;share/qr_identify/hook/ament_prefix_path.ps1
+source;share/qr_identify/hook/ament_prefix_path.dsv
+source;share/qr_identify/hook/ament_prefix_path.sh

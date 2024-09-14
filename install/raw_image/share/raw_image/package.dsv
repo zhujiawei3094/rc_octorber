@@ -1,0 +1,5 @@
+source;share/raw_image/local_setup.bash
+source;share/raw_image/local_setup.dsv
+source;share/raw_image/local_setup.ps1
+source;share/raw_image/local_setup.sh
+source;share/raw_image/local_setup.zsh

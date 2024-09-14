@@ -1,0 +1,150 @@
+[0.000000] (-) TimerEvent: {}
+[0.000141] (qr_identify) JobQueued: {'identifier': 'qr_identify', 'dependencies': OrderedDict()}
+[0.000160] (raw_image) JobQueued: {'identifier': 'raw_image', 'dependencies': OrderedDict()}
+[0.000172] (qr_identify) JobStarted: {'identifier': 'qr_identify'}
+[0.008092] (raw_image) JobStarted: {'identifier': 'raw_image'}
+[0.099590] (-) TimerEvent: {}
+[0.162966] (raw_image) JobProgress: {'identifier': 'raw_image', 'progress': 'cmake'}
+[0.164919] (raw_image) Command: {'cmd': ['/usr/bin/cmake', '/home/zhu/rm2024/RC_October/src/raw_image', '-DCMAKE_INSTALL_PREFIX=/home/zhu/rm2024/RC_October/install/raw_image'], 'cwd': '/home/zhu/rm2024/RC_October/build/raw_image', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'zhu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/zhu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f32b0de96a3250f032804a166a39e4d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zhu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zhu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/home/zhu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zhu-pc:@/tmp/.ICE-unix/4626,unix/zhu-pc:/tmp/.ICE-unix/4626'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2daaf88c_3d78_4834_b749_492ccd585086'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zhu/rm2024/RC_October/build/raw_image'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f32b0de96a3250f032804a166a39e4d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.199700] (-) TimerEvent: {}
+[0.259499] (raw_image) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.297107] (raw_image) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.299854] (-) TimerEvent: {}
+[0.305255] (raw_image) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.349242] (raw_image) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.354053] (raw_image) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.354409] (raw_image) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.355283] (raw_image) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.358478] (raw_image) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400048] (-) TimerEvent: {}
+[0.424406] (raw_image) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.429469] (raw_image) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.429728] (raw_image) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.429943] (raw_image) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.431232] (raw_image) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.500209] (-) TimerEvent: {}
+[0.522708] (qr_identify) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/qr_identify', 'build', '--build-base', '/home/zhu/rm2024/RC_October/build/qr_identify/build', 'install', '--record', '/home/zhu/rm2024/RC_October/build/qr_identify/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/zhu/rm2024/RC_October/src/qr_identify', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'zh_CN:en_US:en', 'USER': 'zhu', 'LC_TIME': 'zh_CN.UTF-8', 'XDG_SESSION_TYPE': 'x11', 'ALLUSERSPROFILE': '/opt/MVS/MVFG', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:', 'HOME': '/home/zhu', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'zh_CN.UTF-8', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '4626', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6f32b0de96a3250f032804a166a39e4d', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'ROS_DISTRO': 'humble', 'GTK_IM_MODULE': 'fcitx', 'LOGNAME': 'zhu', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'zhu', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'WINDOWPATH': '2', 'MVCAM_SDK_PATH': '/opt/MVS', 'PATH': '/opt/ros/humble/bin:/home/zhu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/zhu-pc:@/tmp/.ICE-unix/4626,unix/zhu-pc:/tmp/.ICE-unix/4626', 'MVCAM_GENICAM_CLPROTOCOL': '/opt/MVS/lib/CLProtocol', 'PAPERSIZE': 'a4', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'zh_CN.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/2daaf88c_3d78_4834_b749_492ccd585086', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'zh_CN.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'zh_CN.UTF-8', 'XMODIFIERS': '@im=fcitx', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.93', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'zh_CN.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'zh_CN.UTF-8', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'LC_IDENTIFICATION': 'zh_CN.UTF-8', 'QT_IM_MODULE': 'fcitx', 'PWD': '/home/zhu/rm2024/RC_October/build/qr_identify', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'CLUTTER_IM_MODULE': 'xim', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=6f32b0de96a3250f032804a166a39e4d', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/zhu/rm2024/RC_October/build/qr_identify/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/zhu/rm2024/RC_October/install/qr_identify/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'zh_CN.UTF-8', 'LC_PAPER': 'zh_CN.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'MVCAM_COMMON_RUNENV': '/opt/MVS/lib'}, 'shell': False}
+[0.530512] (raw_image) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.589671] (raw_image) StdoutLine: {'line': b'-- Found OpenCV: /usr/local (found version "4.9.0") \n'}
+[0.590550] (raw_image) StdoutLine: {'line': b'-- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)\n'}
+[0.600363] (-) TimerEvent: {}
+[0.616395] (raw_image) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.619614] (raw_image) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.624895] (raw_image) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.634259] (raw_image) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.646878] (raw_image) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.660594] (qr_identify) StdoutLine: {'line': b'running egg_info\n'}
+[0.660839] (qr_identify) StdoutLine: {'line': b'creating ../../build/qr_identify/qr_identify.egg-info\n'}
+[0.661033] (qr_identify) StdoutLine: {'line': b'writing ../../build/qr_identify/qr_identify.egg-info/PKG-INFO\n'}
+[0.661090] (qr_identify) StdoutLine: {'line': b'writing dependency_links to ../../build/qr_identify/qr_identify.egg-info/dependency_links.txt\n'}
+[0.661254] (qr_identify) StdoutLine: {'line': b'writing entry points to ../../build/qr_identify/qr_identify.egg-info/entry_points.txt\n'}
+[0.661328] (qr_identify) StdoutLine: {'line': b'writing requirements to ../../build/qr_identify/qr_identify.egg-info/requires.txt\n'}
+[0.661366] (qr_identify) StdoutLine: {'line': b'writing top-level names to ../../build/qr_identify/qr_identify.egg-info/top_level.txt\n'}
+[0.661401] (qr_identify) StdoutLine: {'line': b"writing manifest file '../../build/qr_identify/qr_identify.egg-info/SOURCES.txt'\n"}
+[0.662237] (qr_identify) StdoutLine: {'line': b"reading manifest file '../../build/qr_identify/qr_identify.egg-info/SOURCES.txt'\n"}
+[0.662349] (qr_identify) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[0.662555] (qr_identify) StdoutLine: {'line': b"writing manifest file '../../build/qr_identify/qr_identify.egg-info/SOURCES.txt'\n"}
+[0.662703] (qr_identify) StdoutLine: {'line': b'running build\n'}
+[0.662762] (qr_identify) StdoutLine: {'line': b'running build_py\n'}
+[0.662797] (qr_identify) StdoutLine: {'line': b'creating /home/zhu/rm2024/RC_October/build/qr_identify/build\n'}
+[0.662829] (qr_identify) StdoutLine: {'line': b'creating /home/zhu/rm2024/RC_October/build/qr_identify/build/lib\n'}
+[0.662861] (qr_identify) StdoutLine: {'line': b'creating /home/zhu/rm2024/RC_October/build/qr_identify/build/lib/qr_identify\n'}
+[0.662892] (qr_identify) StdoutLine: {'line': b'copying qr_identify/QR.py -> /home/zhu/rm2024/RC_October/build/qr_identify/build/lib/qr_identify\n'}
+[0.663162] (qr_identify) StdoutLine: {'line': b'copying qr_identify/__init__.py -> /home/zhu/rm2024/RC_October/build/qr_identify/build/lib/qr_identify\n'}
+[0.663543] (qr_identify) StdoutLine: {'line': b'running install\n'}
+[0.663805] (qr_identify) StdoutLine: {'line': b'running install_lib\n'}
+[0.664026] (qr_identify) StdoutLine: {'line': b'creating /home/zhu/rm2024/RC_October/install/qr_identify/lib/python3.10/site-packages/qr_identify\n'}
+[0.664110] (qr_identify) StdoutLine: {'line': b'copying /home/zhu/rm2024/RC_October/build/qr_identify/build/lib/qr_identify/QR.py -> /home/zhu/rm2024/RC_October/install/qr_identify/lib/python3.10/site-packages/qr_identify\n'}
+[0.664168] (qr_identify) StdoutLine: {'line': b'copying /home/zhu/rm2024/RC_October/build/qr_identify/build/lib/qr_identify/__init__.py -> /home/zhu/rm2024/RC_October/install/qr_identify/lib/python3.10/site-packages/qr_identify\n'}
+[0.664318] (qr_identify) StdoutLine: {'line': b'byte-compiling /home/zhu/rm2024/RC_October/install/qr_identify/lib/python3.10/site-packages/qr_identify/QR.py to QR.cpython-310.pyc\n'}
+[0.664900] (qr_identify) StdoutLine: {'line': b'byte-compiling /home/zhu/rm2024/RC_October/install/qr_identify/lib/python3.10/site-packages/qr_identify/__init__.py to __init__.cpython-310.pyc\n'}
+[0.665124] (qr_identify) StdoutLine: {'line': b'running install_data\n'}
+[0.665179] (qr_identify) StdoutLine: {'line': b'creating /home/zhu/rm2024/RC_October/install/qr_identify/share/ament_index\n'}
+[0.665223] (qr_identify) StdoutLine: {'line': b'creating /home/zhu/rm2024/RC_October/install/qr_identify/share/ament_index/resource_index\n'}
+[0.665256] (qr_identify) StdoutLine: {'line': b'creating /home/zhu/rm2024/RC_October/install/qr_identify/share/ament_index/resource_index/packages\n'}
+[0.665289] (qr_identify) StdoutLine: {'line': b'copying resource/qr_identify -> /home/zhu/rm2024/RC_October/install/qr_identify/share/ament_index/resource_index/packages\n'}
+[0.665321] (qr_identify) StdoutLine: {'line': b'copying package.xml -> /home/zhu/rm2024/RC_October/install/qr_identify/share/qr_identify\n'}
+[0.665353] (qr_identify) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.666188] (qr_identify) StdoutLine: {'line': b'Copying ../../build/qr_identify/qr_identify.egg-info to /home/zhu/rm2024/RC_October/install/qr_identify/lib/python3.10/site-packages/qr_identify-0.0.0-py3.10.egg-info\n'}
+[0.666703] (qr_identify) StdoutLine: {'line': b'running install_scripts\n'}
+[0.679682] (qr_identify) StdoutLine: {'line': b'Installing QR script to /home/zhu/rm2024/RC_October/install/qr_identify/lib/qr_identify\n'}
+[0.679906] (qr_identify) StdoutLine: {'line': b"writing list of installed files to '/home/zhu/rm2024/RC_October/build/qr_identify/install.log'\n"}
+[0.692333] (qr_identify) CommandEnded: {'returncode': 0}
+[0.700899] (-) TimerEvent: {}
+[0.702368] (qr_identify) JobEnded: {'identifier': 'qr_identify', 'rc': 0}
+[0.794898] (raw_image) StdoutLine: {'line': b'-- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.800972] (-) TimerEvent: {}
+[0.835830] (raw_image) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.837432] (raw_image) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901081] (-) TimerEvent: {}
+[0.909360] (raw_image) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.930576] (raw_image) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.963073] (raw_image) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.970382] (raw_image) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001223] (-) TimerEvent: {}
+[1.019192] (raw_image) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.019308] (raw_image) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.069133] (raw_image) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.069920] (raw_image) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101285] (-) TimerEvent: {}
+[1.200985] (raw_image) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.201345] (-) TimerEvent: {}
+[1.213083] (raw_image) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.213190] (raw_image) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/zhu/rm2024/RC_October/src/raw_image/include\n'}
+[1.213231] (raw_image) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.214470] (raw_image) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.217511] (raw_image) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.217592] (raw_image) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.218121] (raw_image) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.219857] (raw_image) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.226897] (raw_image) StdoutLine: {'line': b'-- Generating done\n'}
+[1.227838] (raw_image) StdoutLine: {'line': b'-- Build files have been written to: /home/zhu/rm2024/RC_October/build/raw_image\n'}
+[1.235296] (raw_image) CommandEnded: {'returncode': 0}
+[1.235560] (raw_image) JobProgress: {'identifier': 'raw_image', 'progress': 'build'}
+[1.235577] (raw_image) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/zhu/rm2024/RC_October/build/raw_image', '--', '-j32', '-l32'], 'cwd': '/home/zhu/rm2024/RC_October/build/raw_image', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en_US:en'), ('USER', 'zhu'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('ALLUSERSPROFILE', '/opt/MVS/MVFG'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/MVS/lib/64:/opt/MVS/lib/32:'), ('HOME', '/home/zhu'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '4626'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f32b0de96a3250f032804a166a39e4d'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'zhu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'zhu'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('MVCAM_SDK_PATH', '/opt/MVS'), ('PATH', '/opt/ros/humble/bin:/home/zhu/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/zhu-pc:@/tmp/.ICE-unix/4626,unix/zhu-pc:/tmp/.ICE-unix/4626'), ('MVCAM_GENICAM_CLPROTOCOL', '/opt/MVS/lib/CLProtocol'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2daaf88c_3d78_4834_b749_492ccd585086'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.93'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/zhu/rm2024/RC_October/build/raw_image'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'xim'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f32b0de96a3250f032804a166a39e4d'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('MVCAM_COMMON_RUNENV', '/opt/MVS/lib'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.267698] (raw_image) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/raw_image_node.dir/src/raw_image_node.cpp.o\x1b[0m\n'}
+[1.267987] (raw_image) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/raw_image_node.dir/src/raw_image.cpp.o\x1b[0m\n'}
+[1.301514] (-) TimerEvent: {}
+[1.401795] (-) TimerEvent: {}
+[1.502111] (-) TimerEvent: {}
+[1.602372] (-) TimerEvent: {}
+[1.702689] (-) TimerEvent: {}
+[1.803016] (-) TimerEvent: {}
+[1.903338] (-) TimerEvent: {}
+[2.003663] (-) TimerEvent: {}
+[2.103995] (-) TimerEvent: {}
+[2.204320] (-) TimerEvent: {}
+[2.304646] (-) TimerEvent: {}
+[2.404882] (-) TimerEvent: {}
+[2.505153] (-) TimerEvent: {}
+[2.605479] (-) TimerEvent: {}
+[2.705789] (-) TimerEvent: {}
+[2.806110] (-) TimerEvent: {}
+[2.906430] (-) TimerEvent: {}
+[3.006743] (-) TimerEvent: {}
+[3.106975] (-) TimerEvent: {}
+[3.207298] (-) TimerEvent: {}
+[3.307609] (-) TimerEvent: {}
+[3.407936] (-) TimerEvent: {}
+[3.508271] (-) TimerEvent: {}
+[3.608640] (-) TimerEvent: {}
+[3.708889] (-) TimerEvent: {}
+[3.809200] (-) TimerEvent: {}
+[3.909525] (-) TimerEvent: {}
+[4.009839] (-) TimerEvent: {}
+[4.110149] (-) TimerEvent: {}
+[4.210444] (-) TimerEvent: {}
+[4.310735] (-) TimerEvent: {}
+[4.411016] (-) TimerEvent: {}
+[4.511298] (-) TimerEvent: {}
+[4.611594] (-) TimerEvent: {}
+[4.653760] (raw_image) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable raw_image_node\x1b[0m\n'}
+[4.681564] (raw_image) StderrLine: {'line': b'/usr/bin/ld: \xe6\x89\xbe\xe4\xb8\x8d\xe5\x88\xb0 -lsensor_msgs: \xe6\xb2\xa1\xe6\x9c\x89\xe9\x82\xa3\xe4\xb8\xaa\xe6\x96\x87\xe4\xbb\xb6\xe6\x88\x96\xe7\x9b\xae\xe5\xbd\x95\n'}
+[4.711659] (-) TimerEvent: {}
+[4.730124] (raw_image) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[4.731425] (raw_image) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/raw_image_node.dir/build.make:248\xef\xbc\x9araw_image_node] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[4.731508] (raw_image) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/raw_image_node.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.731717] (raw_image) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[4.734011] (raw_image) CommandEnded: {'returncode': 2}
+[4.755099] (raw_image) JobEnded: {'identifier': 'raw_image', 'rc': 2}
+[4.765783] (-) EventReactorShutdown: {}
