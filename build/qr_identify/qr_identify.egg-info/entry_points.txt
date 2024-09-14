@@ -1,3 +1,0 @@
-[console_scripts]
-QR = qr_identify.QR:main
-
